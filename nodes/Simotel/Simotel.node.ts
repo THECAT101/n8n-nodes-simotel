@@ -11,7 +11,7 @@ export class Simotel implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Simotel',
 		name: 'simotel',
-		icon: 'file:simotel.svg',
+		icon: 'file:nasim.svg',
 		group: ['transform'],
 		version: 1,
 		usableAsTool: true,
