@@ -1,8 +1,9 @@
-import { ICredentialType, INodeProperties } from 'n8n-workflow';
+import { ICredentialType, INodeProperties, Icon } from 'n8n-workflow';
 
 export class SimotelApi implements ICredentialType {
 	name = 'simotelApi';
 	displayName = 'Simotel API';
+	icon = 'fa:key' as Icon;
 	documentationUrl = 'https://doc.simotel.com';
 	properties: INodeProperties[] = [
 		{

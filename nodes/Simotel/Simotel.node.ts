@@ -3,13 +3,15 @@ import { IExecuteFunctions,
 	IHttpRequestOptions,
 	INodeExecutionData,
 	INodeType,
-	INodeTypeDescription } from 'n8n-workflow';
+	INodeTypeDescription, 
+	Icon} from 'n8n-workflow';
 
 
 export class Simotel implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Simotel',
 		name: 'simotel',
+		icon: 'fa:phone' as Icon,
 		group: ['transform'],
 		version: 1,
 		usableAsTool: true,
