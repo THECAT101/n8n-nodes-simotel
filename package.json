@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-simotel",
-	"version": "0.1.61",
+	"version": "0.1.7",
 	"description": "n8n node for Simotel API",
 	"license": "MIT",
 	"homepage": "",
