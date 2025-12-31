@@ -26,7 +26,7 @@ export class SimotelApi implements ICredentialType {
 			name: 'apiUser',
 			type: 'string',
 			default: '',
-			required: true,
+			required: false,
 		},
 		{
 			displayName: 'API Password (Basic Auth)',
@@ -34,7 +34,7 @@ export class SimotelApi implements ICredentialType {
 			type: 'string',
 			typeOptions: { password: true },
 			default: '',
-			required: true,
+			required: false,
 		},
 	];
 }
